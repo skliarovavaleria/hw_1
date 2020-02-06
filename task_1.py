@@ -3,8 +3,10 @@
 from pyrob.api import *
 
 
-@task
+@task(
 def task_1_1():
+    move_right(2)
+    move_down(1)
     pass
 
 
